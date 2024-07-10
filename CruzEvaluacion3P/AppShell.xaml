@@ -3,13 +3,13 @@
     x:Class="CruzEvaluacion3P.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:CruzEvaluacion3P"
+    xmlns:local="clr-namespace:CruzEvaluacion3P.View"
     Shell.FlyoutBehavior="Disabled"
     Title="CruzEvaluacion3P">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:SCFirstPAge}"
         Route="MainPage" />
 
 </Shell>

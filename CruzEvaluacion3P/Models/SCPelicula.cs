@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CruzEvaluacion3P.Models
 {
-    internal class SCPelicula
+    public class SCPelicula
     {
         public bool adult { get; set; }
         public string backdrop_path { get; set; }

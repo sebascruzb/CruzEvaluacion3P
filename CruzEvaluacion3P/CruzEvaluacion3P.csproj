@@ -64,11 +64,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="View\SCPagina1.xaml">
+	  <MauiXaml Update="View\SCFirstPAge.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
